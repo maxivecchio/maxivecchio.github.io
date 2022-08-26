@@ -7,15 +7,18 @@ var input = document.getElementById("ingresar");
 function encriptar() {
 
     let textoEncriptado = "";
-    let texto = texto.toLowerCase() = input.value;
+    let texto = input.value;
+    texto = texto.toLowerCase()
+    console.log(texto)
+    console.log(texto.length)
 
     for (let i = 0; i < texto.length; i++) {
-        if (texto[i] == "a") {
-            texto[i] = "jsdkhf";
+        if (texto.charAt(i) == "a") {
+            
         }
-        console.log(texto[i]);
-        texto += texto[i];
+        console.log(texto.charAt(i));
     }
+    console.log(texto)
 }
 
 function desencriptar() {
