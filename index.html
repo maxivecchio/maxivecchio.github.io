@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +9,36 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Oracle Challenge</title>
 </head>
+
 <body>
 
     <header>
         <h1>Encriptador <span>| Oracle ONE G3 Challenge (Spirit 01)</span></h1>
     </header>
 
+    <!--
+    <meta charset="UTF-8">
+
+    <input/>
+    <button>Mostrar texto escrito</button>
+    
+    <script>
+        var input = document.querySelector("input");
+    
+        function mostrarTexto() {
+    
+            alert(input.value);
+        }
+    
+        var button = document.querySelector("button");
+        button.onclick = mostrarTexto;
+    </script>
+-->
+
     <main>
         <section>
             <div class="test">
-                <textarea></textarea>
+                <textarea id="ingresar"></textarea>
                 <button id="encriptar">Encriptar</button>
                 <button id="desencriptar">Desencriptar</button>
             </div>
@@ -25,7 +46,7 @@
         <section>
             <div class="test">
                 <textarea></textarea>
-                <button id="encriptar">Copiar</button>
+                <button id="copiar">Copiar</button>
             </div>
         </section>
     </main>
@@ -35,4 +56,5 @@
     <script src="scripts/script.js"></script>
 
 </body>
+
 </html>
