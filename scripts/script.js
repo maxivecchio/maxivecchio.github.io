@@ -7,8 +7,7 @@ var input = document.getElementById("ingresar");
 function encriptar() {
 
     let textoEncriptado = "";
-
-    texto = texto.toLowerCase() = input.value;
+    let texto = texto.toLowerCase() = input.value;
 
     for (let i = 0; i < texto.length; i++) {
         if (texto[i] == "a") {
