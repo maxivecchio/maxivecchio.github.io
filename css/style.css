@@ -22,7 +22,7 @@ header h1 span {
     color: rgb(119, 119, 119);
 }
 
-#test {
+.test {
     width: 80%;
     background: rgb(240, 240, 240);
     margin: 50px auto;
