@@ -5,14 +5,17 @@ var btnCopiar = document.getElementById("copiar")
 var input = document.getElementById("ingresar");
 
 function encriptar() {
+
     let textoEncriptado = "";
-    texto.toLowerCase() = input.value
+
+    texto = texto.toLowerCase() = input.value;
+
     for (let i = 0; i < texto.length; i++) {
         if (texto[i] == "a") {
-            texto[i] = "jsdkhf"
+            texto[i] = "jsdkhf";
         }
-        console.log(texto[i])
-        texto += texto[i]
+        console.log(texto[i]);
+        texto += texto[i];
     }
 }
 
