@@ -11,8 +11,7 @@ function encriptar() {
     let textoEncriptado = "";
     let texto = input.value;
     texto = texto.toLowerCase();
-/*     console.log(texto);
-    console.log(texto.length); */
+    //  console.log(texto); console.log(texto.length);
 
     for (let i = 0; i < texto.length; i++) {
         if (texto.charAt(i) == "a") {
@@ -28,13 +27,11 @@ function encriptar() {
         } else {
             textoEncriptado += texto.charAt(i);
         }
-
-/*         console.log(texto.charAt(i));
- */
+        //  console.log(texto.charAt(i));
     }
 
-/*     console.log(texto);
- */    resultadoMostrar(textoEncriptado);
+    //  console.log(texto);
+    resultadoMostrar(textoEncriptado);
     limpiarInput();
 }
 
@@ -44,32 +41,31 @@ function desencriptar() {
     let textoDesencriptado = "";
     texto = texto.toLowerCase();
 
-/*     console.log("Desencriptar " + input.value);
+    /*
+    console.log("Desencriptar " + input.value);
     console.log("-------------------------------")
- */
-    /* let letrasBase = ["a","e","i","o","u"]
-    let encriptlist = ["ai", "enter", "imes", "ober", "ufat"];
-     */
-    /* hola -> hoberlai
+    let letrasBase = ["a","e","i","o","u"]
+    let encriptlist = ["ai", "enter", "imes", "ober", "ufat"]; 
+    hola -> hoberlai
     recorrer hoberlai
+    
+    i = indice letra del texto a desencriptar
+    ie = indice de letra de encriptlist
+    Cada carecter de encriptlist encriptlist[ie].charAt(i3)
+    longitud encriptlist[ie].length
     */
 
-    // i = indice letra del texto a desencriptar
-    // ie = indice de letra de encriptlist
-    // Cada carecter de encriptlist encriptlist[ie].charAt(i3)
-    // longitud encriptlist[ie].length
-
     for (let i = 0; i < texto.length; i++) {
-        //console.log(texto[i]);
+        // console.log(texto[i]);
         let verif = false;
         for (let ie = 0; ie < encriptlist.length; ie++) {
             let contador = 0;
-            //console.log(encriptlist[i2].charAt(0))
+            // console.log(encriptlist[i2].charAt(0))
             if (encriptlist[ie].charAt(0) == texto[i]) {
-/*                     console.log(encriptlist[ie].length)
- */                    for (let i3 = 0; i3 < encriptlist[ie].length; i3++) {
-/*                         console.log(encriptlist[ie].charAt(i3))
- */                        if (encriptlist[ie].charAt(i3) == texto[i + i3]) {
+                // console.log(encriptlist[ie].length)
+                for (let i3 = 0; i3 < encriptlist[ie].length; i3++) {
+                    // console.log(encriptlist[ie].charAt(i3))
+                    if (encriptlist[ie].charAt(i3) == texto[i + i3]) {
                         contador++
                     }
                     if (contador == encriptlist[ie].length) {
@@ -79,7 +75,6 @@ function desencriptar() {
                     }
                 }
             }
-
         }
         if (verif == false) {
             textoDesencriptado += texto[i]
@@ -92,11 +87,9 @@ function desencriptar() {
 }
 
 function copiar() {
-    /*  inputResultado.select(); inputResultado.setSelectionRange(0, 99999); */
-
+    // inputResultado.select(); inputResultado.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(inputResultado.value);
-/*     console.log(inputResultado.value);
- */
+    // console.log(inputResultado.value);
 }
 
 function resultadoMostrar(txt) {
@@ -111,12 +104,10 @@ btnEncriptar.onclick = encriptar;
 btnDesencriptar.onclick = desencriptar;
 btnCopiar.onclick = copiar;
 
-
 /*
 var input = document.querySelector("input");
     
 function mostrarTexto() {
-
     alert(input.value);
 }
 
