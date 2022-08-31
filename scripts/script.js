@@ -103,14 +103,3 @@ function limpiarInput() {
 btnEncriptar.onclick = encriptar;
 btnDesencriptar.onclick = desencriptar;
 btnCopiar.onclick = copiar;
-
-/*
-var input = document.querySelector("input");
-    
-function mostrarTexto() {
-    alert(input.value);
-}
-
-var button = document.querySelector("button");
-button.onclick = mostrarTexto;
-*/
