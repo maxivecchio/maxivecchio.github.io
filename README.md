@@ -69,18 +69,10 @@
 </h2>
 
 <p>
-    Aqui tienes el 
     <a href="https://metaldev-06.github.io/Encriptador-de-texto-Alura-Challenges-Oracle-ONE/">
-        link del proyecto finalizado
+        Link a Github Pages
     </a>
-    para que lo puedas ver
 </p>
-
-<h2 align="center">
-    <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/fire_1f525.png" width="35">
-    Diseño proporcionado en Figma
-    <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/fire_1f525.png" width="35">
-</h2>
 
 <h2 align="center">
 <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/envelope_2709-fe0f.png" width="35">
