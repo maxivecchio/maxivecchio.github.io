@@ -21,6 +21,7 @@
     Primer challenge de Oracle Next Education y Alura con JavaScript, HTML y CSS <br><br>
     El desafio consiste en construir una pagina web que encripte y desencripte texto que sera ingresado por el usuario y presentarlo en su forma encriptada o desencriptada, el objetivo de este desafio es poner a prueba los conocimientos adquiridos durante el curso "Principiante en programación"
 </p>
+<hr>
 <h2>
     <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/party-popper_1f389.png" width="35">
     Diseño final
@@ -31,6 +32,7 @@
         Link a Github Pages
     </a>
 </p>
+<hr>
 <h2>
 <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/old-key_1f5dd-fe0f.png" width="30">
     Llaves de encriptación
@@ -71,10 +73,9 @@
 
 <hr>
 
-<h2 align="center">
+<h2>
 <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/envelope_2709-fe0f.png" width="35">
     Mensaje secreto
-<img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/envelope_2709-fe0f.png" width="35">
 </h2>
 
 <p>
